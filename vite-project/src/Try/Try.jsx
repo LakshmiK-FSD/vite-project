@@ -1,10 +1,12 @@
 import "../index.css"
 import imr from "../assets/images.png"
-import { useState } from "react";
+import { useEffect, useState } from "react";
  function Tryed(props){
 const [addes,seter]=useState(false);
 const [discount,seterr]=useState(props.price);
-               
+               useEffect(()=>{
+                console.log("useffecter calling");
+               },[addes]);
   function clicked(amt){
     seter(true);
     console.log(props.Name,props.id,"Adopted");
