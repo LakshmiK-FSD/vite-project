@@ -2,7 +2,7 @@
   "animalsAdap": [
     {
       "id": 1,
-      "image": "imr",
+      "image": "./images/imagepen",
       "Name": "anil",
       "venum": true,
       "age": 2,
