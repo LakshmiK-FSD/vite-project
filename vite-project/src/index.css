@@ -42,11 +42,12 @@ height:180px;
  button{
 flex: 1 1 100%;
 justify-content: center;
-margin-left:70px;
-margin-right:-70px;
+    margin: 20px 10px 20px 30px;
 max-width:200px;
 padding:5px 0;
-border-radius:5px;
+border-radius:8px;
+padding-top:10px;
+padding-bottom:10px;
 border:1px solid;
 background-color: rgb(26, 14, 0);
 color: aquamarine;
@@ -54,7 +55,8 @@ color: aquamarine;
  #aded{
   border: 2px solid black;
   border-radius:8px;
-  margin:0 -120px 0 80px;
-  padding:5px;
-  background-color: brown;
+  margin:10px -120px 10px 80px;
+  padding:10px;
+  background-color: rgba(10, 24, 0, 0.872);
+  color: aliceblue;
  }

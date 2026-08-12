@@ -2,7 +2,7 @@
   "animalsAdap": [
     {
       "id": 1,
-      "image": "./images/imagepen",
+      "image": "http://localhost:3000/imagess/imagepen.png",
       "Name": "anil",
       "venum": true,
       "age": 2,
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "image": "can",
+      "image": "http://localhost:3000/imagess/images.png",
       "Name": "Nari",
       "venum": true,
       "age": 8,
@@ -28,7 +28,7 @@
     },
     {
       "id": 3,
-      "image": "panda",
+      "image": "http://localhost:3000/imagess/imagespanda.png",
       "Name": "karadi",
       "venum": true,
       "age": 12,
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "image": "hero",
+      "image": "http://localhost:3000/imagess/hero.png",
       "Name": "react",
       "venum": true,
       "age": 9,
@@ -54,7 +54,7 @@
     },
     {
       "id": 5,
-      "image": "imr",
+      "image": "http://localhost:3000/imagess/imagepen.png",
       "Name": "lakshmi",
       "venum": true,
       "age": 4,
