@@ -1,2 +1,2 @@
 #  npx json-server --watch data/dummyData.json --port 3000 --static ./data
-npx json-server --watch vite-project/data/dummyData.json --port 3000 --static ./vite-project/data
+npx json-server --watch ./data/dummyData.json --port 3000 --static ./data
