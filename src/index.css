@@ -60,3 +60,10 @@ color: aquamarine;
   background-color: rgba(10, 24, 0, 0.872);
   color: aliceblue;
  }
+ #errorr{
+  color: rgb(233, 231, 231);
+  background-color: red;
+  margin:200px 0 50px;
+  padding:50px 500px;
+
+ }

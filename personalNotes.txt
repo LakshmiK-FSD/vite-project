@@ -1,2 +1,2 @@
 #  npx json-server --watch data/dummyData.json --port 3000 --static ./data
-npx json-server --watch ./data/dummyData.json --port 3000 --static ./data
+ finnal -->  npx json-server --watch ./data/dummyData.json --port 3000 --static ./data
