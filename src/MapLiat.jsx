@@ -1,36 +1,10 @@
-import imr from "./assets/images.png";
-import can from "./assets/imagepen.png";
-import hero from "./assets/hero.png";
-import panda from "./assets/imagespanda.png";
 import loaderGif from "./assets/arthurpx-book-27293_512.gif";
 import Tryed from "./Try/Try.jsx";
-import { useEffect, useState } from "react";
-
+import { useEffect, useState} from "react";
+import useFetching from "../useFetching.jsx";
 function MapLiat() {
-  const [err, errSeter] = useState(null);
-  const [tempList, setTempli] = useState(null);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      fetch("http://localhost:3000/animalsAdap")
-        .then(res => {
-            if(!res.ok)
-            {
-              throw new Error("Sorry Unable to Load try sometime later");
-            }
-            
-            return res.json()})
-        .then(data => {
-            console.log(data);
-            setTempli(data)})
-        .catch(error => {
-          errSeter(error.message);
-        });
-    }, 2000);
-
-    return () => clearTimeout(timer); // cleanup
-  }, []);
-
+  const brmode="http://localhost:3000/animalsAdap"
+const [err,tempList] = useFetching(brmode);
   if (!tempList) {
     return (
       <div>
